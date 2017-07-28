@@ -1,0 +1,40 @@
+
+R version 2.13.1 (2011-07-08)
+Copyright (C) 2011 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: x86_64-apple-darwin9.8.0/x86_64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/Library/Frameworks/R.framework/Versions/2.13/Resources/library/stats/libs/x86_64/stats.so':
+  dlopen(/Library/Frameworks/R.framework/Versions/2.13/Resources/library/stats/libs/x86_64/stats.so, 6): Symbol not found: __gfortran_internal_free
+  Referenced from: /Library/Frameworks/R.framework/Versions/2.13/Resources/library/stats/libs/x86_64/stats.so
+  Expected in: /Applications/MATLAB_R2012a.app/sys/os/maci64/libgfortran.2.dylib
+
+During startup - Warning message:
+package 'stats' in options("defaultPackages") was not found 
+> library(coda)
+Loading required package: lattice
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/Library/Frameworks/R.framework/Versions/2.13/Resources/library/stats/libs/x86_64/stats.so':
+  dlopen(/Library/Frameworks/R.framework/Versions/2.13/Resources/library/stats/libs/x86_64/stats.so, 6): Symbol not found: __gfortran_internal_free
+  Referenced from: /Library/Frameworks/R.framework/Versions/2.13/Resources/library/stats/libs/x86_64/stats.so
+  Expected in: /Applications/MATLAB_R2012a.app/sys/os/maci64/libgfortran.2.dylib
+
+In addition: Warning message:
+package 'coda' was built under R version 2.13.2 
+Error: package 'lattice' could not be loaded
+Execution halted

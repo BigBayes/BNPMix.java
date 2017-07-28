@@ -1,0 +1,4 @@
+for i in `ls $nrmix.galaxy*eps nrmix.logacid*eps`
+do
+        epspdf $i
+done

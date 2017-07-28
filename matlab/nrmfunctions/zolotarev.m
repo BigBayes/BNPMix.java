@@ -1,0 +1,6 @@
+function z = zolotarev(u,sigma);
+
+z =     sin(sigma.*u).^(sigma./(1-sigma))...
+        .* sin((1-sigma).*u)...
+        .* sin(u).^(1./(sigma-1));
+z(u==0) = sigma^(sigma/(1-sigma))*(1-sigma);
