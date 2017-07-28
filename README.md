@@ -43,7 +43,7 @@ With IntelliJ:
 * Build > Build Artifact...
 
 
-## Reference
+## References
 
 *  [Favaro, Teh, *MCMC for Normalized Random Measure Mixture Models*, 2013](https://www.stats.ox.ac.uk/~teh/research/npbayes/FavTeh2013a.pdf)
 *  [Favaro, Lomeli, Teh, *On a class of σ-stable Poisson–Kingman models and an effective marginalized sampler*, 2015](https://link.springer.com/article/10.1007/s11222-014-9499-4)
