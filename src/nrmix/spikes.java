@@ -12,7 +12,7 @@ import static utilities.DataIO.readDoubleMatrix;
  */
 public class spikes {
 	public static void main(String[] cmd_args) throws IOException {
-    Double[][] data = readDoubleMatrix("/Users/ywteh/Research/npbayes/inference/nrmsampler/code/spike/spike6x2000.data");
+    Double[][] data = readDoubleMatrix("src/nrmix/spike6x2000.data");
     RealVector[] Data = new RealVector[data.length];
     for (int i=0; i<data.length; i++) {
       Data[i] = new ArrayRealVector(data[i]);
