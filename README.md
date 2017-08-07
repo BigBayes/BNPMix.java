@@ -6,6 +6,8 @@ This package has been written by [Yee Whye Teh](https://www.stats.ox.ac.uk/~teh)
 The folder `src/nrmix` is related to the first article and `src/qmix`to the second article.
 This package has been cleaned and uploaded by [Emile Mathieu](http://emilemathieu.fr).
 
+Check also the (partial) [Julia port](https://github.com/BigBayes/BNPMix.jl) of this package.
+
 Do not hesitate to create pull requests for enhancements or to open issues.
 
 ## Installation and requirements
